@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Monserrat", sans-serif;
+}
+
+body {
+    background: #eee;
+    padding: 0;
+
+}
+
+footer {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    margin-bottom: 15px;
+}
+
+.margin {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gear {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.name-color {
+    color: #ffbf00
+}
+
+.container__login {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.nav {
+    background-color: green !important;
+}
